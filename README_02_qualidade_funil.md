@@ -19,7 +19,7 @@ Nota de processo: a primeira versão do filtro de promoção não checava nulos 
 
 ## Achados de negócio (Gold)
 
-- **Comissão em risco por modalidade**: Fiscal concentra ~R$ 54,7M em comissão não capturada (cotou e não emitiu) — desproporcional às outras 4 modalidades somadas (~R$ 11,4M). Ticket alto compensa taxa de conversão semelhante (~22% em todas as modalidades).
+- **Comissão em risco por modalidade**: Fiscal concentra ~R$ 50,9M em comissão não capturada (cotou e não emitiu) — desproporcional às outras 4 modalidades somadas (~R$ 10,6M). Ticket alto compensa taxa de conversão semelhante (~22% em todas as modalidades).
 - **Conversão por canal**: automático (API) converte 24,5% vs manual 16,8% — evidência quantitativa que sustenta a tese de negócio original (incentivar seguradoras sem API a desenvolver integração).
 - **Seguradoras candidatas a incentivo de API**: ranking por volume de cotação manual e comissão gerada, priorizando por valor, não só volume.
 

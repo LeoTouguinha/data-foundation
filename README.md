@@ -11,7 +11,7 @@
 | Fase | Entrega | Achado-chave |
 |---|---|---|
 | **1 — Geração de bases** | 220 clientes CNPJ, 32 seguradoras, 12 meses, ~514k cotações simuladas | Erros de qualidade e comportamento de churn injetados deliberadamente, por design |
-| **2 — Qualidade + Funil** | PySpark real (não decorativo), 4 dimensões de qualidade | DQ Score 99,84/100. **Fiscal concentra ~R$54,7M em comissão não capturada** — 5x mais que as outras 4 modalidades somadas. Canal automático (API) converte 46% melhor que manual |
+| **2 — Qualidade + Funil** | PySpark real (não decorativo), 4 dimensões de qualidade | DQ Score 99,84/100. **Fiscal concentra ~R$50,9M em comissão não capturada** — 5x mais que as outras 4 modalidades somadas (~R$10,6M). Canal automático (API) converte 46% melhor que manual |
 | **3 — Previsão de demanda** | Regressão sazonal vs baseline, validado out-of-sample | MAPE 2,56% (regressão) vs 10,6% (média móvel) — limitação de histórico real (12 meses) declarada explicitamente |
 | **4 — RFM + Churn** | Segmentação de clientes por risco, ponderada por valor | RFM é a entrega defensável; modelo supervisionado teve AUC 1,0 — **documentado como vazamento de dados identificado, não como sucesso** |
 
